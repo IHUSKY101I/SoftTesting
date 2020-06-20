@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace SoftTesting
 {
-    public partial class Form1 : Form
+    public partial class InfoForm : Form
     {
-        public Form1()
+        public InfoForm()
         {
             InitializeComponent();
+            label1.Text = "Дмитренко Н.П.\nЗайцев А.Д.\nКоваленко А.А.\n515ст2";
         }
     }
 }
