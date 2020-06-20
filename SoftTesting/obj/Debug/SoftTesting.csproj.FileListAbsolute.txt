@@ -8,3 +8,14 @@ C:\Users\nub12\Documents\GitHub\SoftTesting\SoftTesting\obj\Debug\SoftTesting.cs
 C:\Users\nub12\Documents\GitHub\SoftTesting\SoftTesting\obj\Debug\SoftTesting.csproj.CoreCompileInputs.cache
 C:\Users\nub12\Documents\GitHub\SoftTesting\SoftTesting\obj\Debug\SoftTesting.exe
 C:\Users\nub12\Documents\GitHub\SoftTesting\SoftTesting\obj\Debug\SoftTesting.pdb
+C:\GitProject\SoftTesting\SoftTesting\bin\Debug\SoftTesting.exe.config
+C:\GitProject\SoftTesting\SoftTesting\bin\Debug\SoftTesting.exe
+C:\GitProject\SoftTesting\SoftTesting\bin\Debug\SoftTesting.pdb
+C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.csprojAssemblyReference.cache
+C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.InfoForm.resources
+C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.Properties.Resources.resources
+C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.csproj.GenerateResource.cache
+C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.csproj.CoreCompileInputs.cache
+C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.exe
+C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.pdb
+C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.Forms.MainForm.resources
