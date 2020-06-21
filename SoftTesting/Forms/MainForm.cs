@@ -42,8 +42,8 @@ namespace SoftTesting.Forms
 
 
             InitializeComponent();
-            testsListBox.DrawMode = DrawMode.OwnerDrawFixed;
-            testsListBox.DrawItem += TestListBox_ItemDraw;
+            //testsListBox.DrawMode = DrawMode.OwnerDrawFixed;
+            //testsListBox.DrawItem += TestListBox_ItemDraw;
 
             timeLeftLabel.Text = "00:00";
 
@@ -59,6 +59,25 @@ namespace SoftTesting.Forms
             {
                 return this.infoForm;
             }
+        }
+
+        private void MainForm_Activated(object sender, EventArgs e)
+        {
+            //if (LoginForm.CurrentUser != null)
+            //{
+            //    текущийПользовательToolStripMenuItem.Text = CURRENT_USER_TEXT + LoginForm.CurrentUser.Name;
+            //    предыдущийРезультатToolStripMenuItem.Text = CURRENT_USER_LAST_RESULT + LoginForm.CurrentUser.LastResult;
+            //}
+            //else
+            //{
+            //    текущийПользовательToolStripMenuItem.Text = CURRENT_USER_TEXT;
+            //    предыдущийРезультатToolStripMenuItem.Text = CURRENT_USER_LAST_RESULT;
+            //}
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            //loginForm.ShowDialog();
         }
     }
 }

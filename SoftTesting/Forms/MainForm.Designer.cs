@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel2 = new System.Windows.Forms.Panel();
             this.timeLabel = new System.Windows.Forms.Label();
             this.timeLeftLabel = new System.Windows.Forms.Label();
@@ -59,7 +60,7 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.timeLabel);
             this.panel2.Controls.Add(this.timeLeftLabel);
-            this.panel2.Location = new System.Drawing.Point(2, 591);
+            this.panel2.Location = new System.Drawing.Point(24, 586);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(250, 55);
             this.panel2.TabIndex = 14;
@@ -91,7 +92,7 @@
             this.taskLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.taskLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.taskLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.taskLabel.Location = new System.Drawing.Point(270, 70);
+            this.taskLabel.Location = new System.Drawing.Point(292, 65);
             this.taskLabel.Name = "taskLabel";
             this.taskLabel.Size = new System.Drawing.Size(652, 46);
             this.taskLabel.TabIndex = 22;
@@ -103,7 +104,7 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.questionsLabel);
             this.panel1.Controls.Add(this.questionsDoneLabel);
-            this.panel1.Location = new System.Drawing.Point(2, 70);
+            this.panel1.Location = new System.Drawing.Point(24, 65);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 46);
             this.panel1.TabIndex = 23;
@@ -133,7 +134,7 @@
             // nextButton
             // 
             this.nextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F);
-            this.nextButton.Location = new System.Drawing.Point(779, 591);
+            this.nextButton.Location = new System.Drawing.Point(801, 586);
             this.nextButton.Margin = new System.Windows.Forms.Padding(8, 15, 8, 15);
             this.nextButton.Name = "nextButton";
             this.nextButton.Size = new System.Drawing.Size(143, 55);
@@ -146,7 +147,7 @@
             this.acceptButton.BackColor = System.Drawing.Color.ForestGreen;
             this.acceptButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F);
             this.acceptButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.acceptButton.Location = new System.Drawing.Point(429, 591);
+            this.acceptButton.Location = new System.Drawing.Point(451, 586);
             this.acceptButton.Margin = new System.Windows.Forms.Padding(8, 15, 8, 15);
             this.acceptButton.Name = "acceptButton";
             this.acceptButton.Size = new System.Drawing.Size(334, 55);
@@ -157,7 +158,7 @@
             // backButton
             // 
             this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F);
-            this.backButton.Location = new System.Drawing.Point(270, 591);
+            this.backButton.Location = new System.Drawing.Point(292, 586);
             this.backButton.Margin = new System.Windows.Forms.Padding(8, 15, 8, 15);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(143, 55);
@@ -170,7 +171,7 @@
             this.currentQuestionLabel.AutoSize = true;
             this.currentQuestionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F);
             this.currentQuestionLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.currentQuestionLabel.Location = new System.Drawing.Point(507, 37);
+            this.currentQuestionLabel.Location = new System.Drawing.Point(529, 32);
             this.currentQuestionLabel.Name = "currentQuestionLabel";
             this.currentQuestionLabel.Size = new System.Drawing.Size(183, 26);
             this.currentQuestionLabel.TabIndex = 17;
@@ -230,7 +231,7 @@
             // testGridHolder
             // 
             this.testGridHolder.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.testGridHolder.Location = new System.Drawing.Point(270, 127);
+            this.testGridHolder.Location = new System.Drawing.Point(292, 122);
             this.testGridHolder.Name = "testGridHolder";
             this.testGridHolder.Size = new System.Drawing.Size(652, 446);
             this.testGridHolder.TabIndex = 21;
@@ -246,7 +247,7 @@
             "1) Вопрос первый",
             "2) Вопрос второй",
             "3) Вопрос третий"});
-            this.testsListBox.Location = new System.Drawing.Point(2, 127);
+            this.testsListBox.Location = new System.Drawing.Point(24, 122);
             this.testsListBox.Margin = new System.Windows.Forms.Padding(15);
             this.testsListBox.Name = "testsListBox";
             this.testsListBox.Size = new System.Drawing.Size(250, 446);
@@ -261,7 +262,7 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(967, 24);
-            this.menuStrip.TabIndex = 15;
+            this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "menuStrip1";
             // 
             // MainForm
@@ -281,8 +282,15 @@
             this.Controls.Add(this.testsListBox);
             this.Controls.Add(this.menuStrip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Soft Testing";
+            this.Activated += new System.EventHandler(this.MainForm_Activated);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);

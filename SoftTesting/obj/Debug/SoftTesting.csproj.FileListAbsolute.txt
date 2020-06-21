@@ -19,3 +19,4 @@ C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.csproj.CoreCompileIn
 C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.exe
 C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.pdb
 C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.Forms.MainForm.resources
+C:\Users\nub12\Documents\GitHub\SoftTesting\SoftTesting\obj\Debug\SoftTesting.Forms.MainForm.resources
