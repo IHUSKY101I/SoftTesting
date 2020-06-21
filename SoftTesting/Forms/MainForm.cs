@@ -60,10 +60,5 @@ namespace SoftTesting.Forms
                 return this.infoForm;
             }
         }
-
-        //private void MainForm_Load(object sender, EventArgs e)
-        //{
-
-        //}
     }
 }
