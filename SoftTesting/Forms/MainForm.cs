@@ -1,9 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PatternsTest
+namespace SoftTesting.Forms
 {
     public partial class MainForm : Form
     {
@@ -46,6 +51,7 @@ namespace PatternsTest
             //testLoader.MainForm = this;
             //testLoader.LoadTest();
             //StartTest();
+
         }
         public InfoForm InfoForm
         {
@@ -54,5 +60,10 @@ namespace PatternsTest
                 return this.infoForm;
             }
         }
+
+        //private void MainForm_Load(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }
