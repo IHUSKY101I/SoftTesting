@@ -1,5 +1,4 @@
-﻿namespace SoftTesting.Forms
-{
+﻿namespace SoftTesting
     partial class ResultForm
     {
         /// <summary>
