@@ -19,8 +19,6 @@ namespace SoftTesting
             this.multyAnswer = multyAnswer;
         }
 
-
-
         public TestType TestType
         {
             get

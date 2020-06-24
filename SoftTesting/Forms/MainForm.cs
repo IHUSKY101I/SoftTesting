@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SoftTesting.Forms
+namespace SoftTesting
 {
     public partial class MainForm : Form
     {

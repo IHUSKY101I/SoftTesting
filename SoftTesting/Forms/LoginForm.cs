@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Threading;
 
-namespace SoftTesting.Forms
+namespace SoftTesting
 {
     public partial class LoginForm : Form
     {

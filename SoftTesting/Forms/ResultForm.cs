@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace SoftTesting.Forms
+namespace SoftTesting
 {
     public partial class ResultForm : Form
     {
