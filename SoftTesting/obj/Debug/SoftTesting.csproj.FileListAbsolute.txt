@@ -28,3 +28,7 @@ C:\Users\User\Documents\GitHub\SoftTesting\SoftTesting\obj\Debug\SoftTesting.csp
 C:\Users\User\Documents\GitHub\SoftTesting\SoftTesting\obj\Debug\SoftTesting.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\GitHub\SoftTesting\SoftTesting\obj\Debug\SoftTesting.exe
 C:\Users\User\Documents\GitHub\SoftTesting\SoftTesting\obj\Debug\SoftTesting.pdb
+C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.LoginForm.resources
+C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.MainForm.resources
+C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.UserCreatedForm.resources
+C:\GitProject\SoftTesting\SoftTesting\obj\Debug\SoftTesting.SingleAnswerTestPanel.resources
