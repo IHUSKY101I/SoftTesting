@@ -81,6 +81,7 @@
     <Compile Include="TestConnections.cs" />
     <Compile Include="TestImage.cs" />
     <Compile Include="TestLoader.cs" />
+    <Compile Include="TestMultyAnswer.cs" />
     <Compile Include="TestText.cs" />
     <EmbeddedResource Include="Forms\InfoForm.resx">
       <DependentUpon>InfoForm.cs</DependentUpon>

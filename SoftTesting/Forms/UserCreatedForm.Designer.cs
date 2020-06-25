@@ -1,4 +1,4 @@
-﻿namespace SoftTesting.Forms
+﻿namespace SoftTesting
 {
     partial class UserCreatedForm
     {
