@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace SoftTesting
 {
-    class AnswerInfo
+    public struct AnswerInfo
     {
         private TestType testType;
         private string singleAnswer;
@@ -18,6 +17,8 @@ namespace SoftTesting
             this.singleAnswer = singleAnswer;
             this.multyAnswer = multyAnswer;
         }
+
+
 
         public TestType TestType
         {

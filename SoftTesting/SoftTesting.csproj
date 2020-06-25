@@ -76,7 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleAnswerTestPanel.cs" />
     <Compile Include="Test.cs" />
+    <Compile Include="TestConnections.cs" />
     <Compile Include="TestImage.cs" />
     <Compile Include="TestLoader.cs" />
     <Compile Include="TestText.cs" />
@@ -116,6 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="User Controls\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
