@@ -79,6 +79,7 @@
     <Compile Include="Test.cs" />
     <Compile Include="TestImage.cs" />
     <Compile Include="TestLoader.cs" />
+    <Compile Include="TestText.cs" />
     <EmbeddedResource Include="Forms\InfoForm.resx">
       <DependentUpon>InfoForm.cs</DependentUpon>
     </EmbeddedResource>
