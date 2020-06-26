@@ -36,7 +36,6 @@
             this.passwordTextBox = new System.Windows.Forms.TextBox();
             this.loginLabel = new System.Windows.Forms.Label();
             this.passwordLabel = new System.Windows.Forms.Label();
-            this.creatorsInfoLabelIFMIT = new System.Windows.Forms.Label();
             this.programmLabel = new System.Windows.Forms.Label();
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.LogoHAI = new System.Windows.Forms.PictureBox();
@@ -115,19 +114,6 @@
             this.passwordLabel.Text = "Пароль:";
             this.passwordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // creatorsInfoLabelIFMIT
-            // 
-            this.creatorsInfoLabelIFMIT.AutoSize = true;
-            this.creatorsInfoLabelIFMIT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.creatorsInfoLabelIFMIT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(39)))), ((int)(((byte)(63)))));
-            this.creatorsInfoLabelIFMIT.Location = new System.Drawing.Point(218, 395);
-            this.creatorsInfoLabelIFMIT.Name = "creatorsInfoLabelIFMIT";
-            this.creatorsInfoLabelIFMIT.Size = new System.Drawing.Size(376, 32);
-            this.creatorsInfoLabelIFMIT.TabIndex = 6;
-            this.creatorsInfoLabelIFMIT.Text = "Крютченко Никита ИПЗ-2 (мс), Козаков Артём ИПЗ-2 (мс)\r\n2020 ИФМИТ ЛНУ";
-            this.creatorsInfoLabelIFMIT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.creatorsInfoLabelIFMIT.Visible = false;
-            // 
             // programmLabel
             // 
             this.programmLabel.AutoSize = true;
@@ -162,12 +148,12 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(39)))), ((int)(((byte)(63)))));
             this.label1.Location = new System.Drawing.Point(311, 395);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 32);
+            this.label1.Size = new System.Drawing.Size(341, 32);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Зайцев Александр 515-ст 2\r\n2020 ХАИ";
+            this.label1.Text = "Дмитренко Н.П. Зайцев А.Д. Коваленко А.А. 515-ст 2\r\n2020 ХАИ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LoginFormIFMIT
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -176,7 +162,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LogoHAI);
             this.Controls.Add(this.programmLabel);
-            this.Controls.Add(this.creatorsInfoLabelIFMIT);
             this.Controls.Add(this.passwordLabel);
             this.Controls.Add(this.loginLabel);
             this.Controls.Add(this.passwordTextBox);
@@ -184,10 +169,9 @@
             this.Controls.Add(this.logoPuctureBox);
             this.Controls.Add(this.LoginButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "LoginFormIFMIT";
+            this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Patterns Test";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LoginForm_FormClosing);
@@ -209,7 +193,6 @@
         private System.Windows.Forms.TextBox passwordTextBox;
         private System.Windows.Forms.Label loginLabel;
         private System.Windows.Forms.Label passwordLabel;
-        private System.Windows.Forms.Label creatorsInfoLabelIFMIT;
         private System.Windows.Forms.Label programmLabel;
         private System.Windows.Forms.ErrorProvider errorProvider;
         private System.Windows.Forms.PictureBox LogoHAI;

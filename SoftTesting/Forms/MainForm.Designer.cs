@@ -141,6 +141,7 @@
             this.nextButton.TabIndex = 20;
             this.nextButton.Text = "Далее";
             this.nextButton.UseVisualStyleBackColor = true;
+            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
             // acceptButton
             // 
@@ -154,6 +155,7 @@
             this.acceptButton.TabIndex = 19;
             this.acceptButton.Text = "Подтвердить";
             this.acceptButton.UseVisualStyleBackColor = false;
+            this.acceptButton.Click += new System.EventHandler(this.acceptButton_Click);
             // 
             // backButton
             // 
@@ -165,6 +167,7 @@
             this.backButton.TabIndex = 18;
             this.backButton.Text = "Назад";
             this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // currentQuestionLabel
             // 
