@@ -1,0 +1,183 @@
+# Список типов тестов: Text, SingleAnswer, MultyAnswer, Image, Connection
+# "Тело" вопрос тестового задания начинается с заглавной буквы T и заканчивается заглавной S который должны быть одни на строке.
+# Можно задать ограничение теста по времени: начиная этот блок с заглавной V и заканчивая Е;
+# Время записывается в формате 00:00 где с левой стороны от двоиточия записываются минуты а с правой секунды.
+
+V
+	02:30
+E
+
+
+T
+	@Title:Биты в байте
+	@Task:Количество бит в байте:
+	@Type:SingleAnswer
+	@Correct:3
+	V
+		@Field:2 бита
+		@E
+	V
+		@Field:4 бита
+		@E
+	V
+		@Field:8 бит
+		@E
+	V
+		@Field:10 бит
+		@E
+S
+
+T
+	@Title:Название факультета
+	@Task:Сокращённое название факультета:
+	@Type:SingleAnswer
+	@Correct:1
+	V
+		@Field:РЕКСІ
+		@E
+	V
+		@Field:ИФБит
+		@E
+	V
+		@Field:БОМБИТ
+		@E
+	V
+		@Field:КРЯхТиТ
+		@E
+S
+
+T
+	@Title:Расположение института
+	@Task:Где распологается институт ХАИ?
+	@Type:SingleAnswer
+	@Correct:4
+	V
+		@Field:В Караганде
+		@E
+	V
+		@Field:В Северодонецке
+		@E
+	V
+		@Field:На марсе
+		@E
+	V
+		@Field:В Харькове
+		@E
+	V
+		@Field:На Луне
+		@E	
+	V
+		@Field:В Старобельске
+		@E
+S
+
+T
+	@Title:Название компании
+	@Task:Cамая популярная компания производящая компьютерную технику:
+	@Type:Text
+	V
+		@Field:APPLE
+		@E
+S
+
+T
+	@Title:Найти компонент
+	@Task:На какой картинке изображено оперативное запоминающее устройство?
+	@Type:Image
+	@Correct:1
+	V
+		@Field:
+		@Picture:RAM.jpg
+		@E
+	V
+		@Field:
+		@Picture:Motherboard.jpg
+		@E
+	V
+		@Field:
+		@Picture:CPU.jpg
+		@E
+	V
+		@Field:
+		@Picture:GraphicsCard.jpg
+		@E
+S
+
+
+T
+	@Title:Компоненты компьютера
+	@Task:Обязательные компоненты для старта компьютера:
+	@Type:MultyAnswer
+	@Correct:1
+	V
+		@Field:Центральный процессор
+		@Picture:1
+		@E
+	V
+		@Field:Жесткий диск / Твердотельный накопитель
+		@Picture:0
+		@E
+	V
+		@Field:ОЗУ
+		@Picture:1
+		@E
+	V
+		@Field:Монитор
+		@Picture:0
+		@E
+	V
+		@Field:Клавиатура
+		@Picture:0
+		@E
+	V
+		@Field:Мышь
+		@Picture:0
+		@E
+S
+
+T
+	@Title:Название компонента
+	@Task:Сокращённое название твердотельного накопителя:
+	@Type:Text
+	@Correct:4
+	V
+		@Field:SSD
+		@E
+S
+
+T
+	@Title:Название типа переменной
+	@Task:Общепрнятое название типа для целочисленной переменной:
+	@Type:Text
+	@Correct:4
+	V
+		@Field:INT
+		@E
+S
+
+T
+	@Title:Преобразование типа
+	@Task:В какие из перечисленных типов возможно неявное преобразование переменной типа int в Си подобных языках?
+	@Type:MultyAnswer
+	@Correct:1
+	V
+		@Field:byte
+		@Picture:0
+		@E
+	V
+		@Field:short
+		@Picture:0
+		@E
+	V
+		@Field:unsigned int / uint
+		@Picture:0
+		@E
+	V
+		@Field:long
+		@Picture:1
+		@E	
+	V
+		@Field:Неявное приведение невозможно
+		@Picture:0
+		@E
+S

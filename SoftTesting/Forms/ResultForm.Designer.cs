@@ -1,4 +1,5 @@
 ﻿namespace SoftTesting
+{ 
     partial class ResultForm
     {
         /// <summary>
@@ -106,7 +107,7 @@
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.loginButton);
             this.Controls.Add(this.retryButton);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ResultForm";

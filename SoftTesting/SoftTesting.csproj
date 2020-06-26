@@ -86,14 +86,8 @@
     <Compile Include="User Controls\CustomCheckBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="User Controls\CustomCheckBox.Designer.cs">
-      <DependentUpon>CustomCheckBox.cs</DependentUpon>
-    </Compile>
     <Compile Include="User Controls\CustomRadioButton.cs">
       <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="User Controls\CustomRadioButton.Designer.cs">
-      <DependentUpon>CustomRadioButton.cs</DependentUpon>
     </Compile>
     <Compile Include="User Controls\ImageAnswerTestPanel.cs">
       <SubType>UserControl</SubType>
@@ -153,12 +147,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Tasks.test" />
+    <None Include="Resources\Users.list" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <Content Include="Icon.ico" />
+    <Content Include="Resources\CPU.jpg" />
+    <Content Include="Resources\GraphicsCard.jpg" />
+    <Content Include="Resources\Logo.png" />
+    <Content Include="Resources\Motherboard.jpg" />
+    <Content Include="Resources\RAM.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

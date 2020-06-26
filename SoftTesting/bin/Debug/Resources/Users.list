@@ -1,0 +1,44 @@
+﻿#user 
+#{
+#	name "TEST_USER";
+#	password "TEST_PASSWORD";
+#}
+
+
+
+user
+{
+	name "admin";
+	password "admin";
+	lastResult "10/10(100%)";
+}
+
+user
+{
+	name "artem";
+	password "artem";
+	lastResult "0/0(0%)";
+}
+
+user
+{
+	name "aleksandr";
+	password "aleksandr";
+	lastResult "0/0(0%)";
+}
+
+user
+{
+	name "nikita";
+	password "nikita";
+	lastResult "0/0(0%)";
+}
+
+user
+{
+	name "oksana";
+	password "oksana";
+	lastResult "0/0(0%)";
+}
+
+
